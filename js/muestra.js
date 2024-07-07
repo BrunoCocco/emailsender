@@ -17,7 +17,7 @@ const mostrarTarjetas = () => {
         // Crear una tarjeta en forma de string HTML
         let cardHTML = `
             <div>
-                <div>
+                <div class="confirm-container">
                     <h2>Destinatario: ${email.destino}</h2>
                     <h4>Correo: ${email.correo}</h4>
                     <h2>Texto del Email: ${email.textoEmail}</h2>
