@@ -30,11 +30,9 @@ const EnviarCorreo = () =>{
     
 }
 
-
 function chequeoStorage() {
     let datoguardado = JSON.parse(localStorage.getItem("dato"));
     console.log(datoguardado)
 }
-
 
 enviar.addEventListener("click", EnviarCorreo)
